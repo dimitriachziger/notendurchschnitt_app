@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Mark" representedClassName="Mark" syncable="YES" codeGenerationType="class">
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Subject" representedClassName=".Subject" syncable="YES">
+        <attribute name="mark" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="points" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Mark" positionX="270.0078125" positionY="5.30859375" width="128" height="58"/>
+        <element name="Subject" positionX="-63" positionY="-18" width="128" height="88"/>
+    </elements>
+</model>
